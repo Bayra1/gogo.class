@@ -1,0 +1,402 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section {
+    background-color: rgba(213, 204, 204, 0.91);
+}
+
+.header {
+    width: 1100px;
+    /* background-color: aquamarine; */
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* background-color: antiquewhite; */
+}
+
+.medee {
+    display: flex;
+}
+
+.header-left img {
+    width: 119px;
+    height: 38px;
+}
+
+.header-left ul {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-size: 16px;
+}
+
+
+.header-right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+.extra-link div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.dollar {
+    color: #2adb00;
+}
+
+.top-picture {
+    text-align: center;
+}
+
+.top-picture img {
+    width: 1100px;
+}
+
+.container-two {
+    width: 1100px;
+    height: 385px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.container-two-right {
+    width: 502px;
+    height: 301px;
+    padding-left: 40px;
+    gap: 40px;
+}
+
+.container-two-left img {
+    width: 482px;
+    height: 325px;
+    border-radius: 8px;
+    margin-top: 25px;
+}
+
+.container-two-right button {
+    border: none;
+    font-size: 12px;
+    padding: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 12px;
+    background-image: linear-gradient(-120deg, #e08100, #c90027);
+    margin-top: 20px;
+    color: aliceblue;
+}
+
+.container-two-right h2 {
+    width: 472px;
+    height: 108px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 26px;
+
+}
+
+.container-two-right p {
+    opacity: 0.4;
+}
+
+.container-three {
+    width: 1100px;
+    height: 283px;
+    padding-bottom: 50px;
+    /* background-color: #2adb00; */
+    margin: auto;
+    display: flex;
+}
+
+.container-three-right img {
+    width: 263px;
+    height: 175px;
+}
+
+.container-three-right {
+    display: flex;
+    flex-direction: column;
+    width: 263px;
+    height: 283px;
+    margin: auto;
+
+}
+
+.container-three-right p {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.container-three-right-comment {
+    width: 263px;
+    display: flex;
+    gap: 15px;
+}
+
+.story {
+    width: 1100px;
+    height: 285px;
+    margin: auto;
+    /* background-color: #e08100; */
+}
+
+.gogo-story {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+
+}
+
+.story-cards {
+    display: flex;
+    gap: 15px;
+}
+
+.google {
+    position: absolute;
+    z-index: 10;
+}
+
+.story-image {
+    position: relative;
+}
+
+.gogo {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.big-story {
+    background-color: rgb(0, 176, 244);
+    color: aliceblue;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 2px 3px;
+    margin-top: 3px;
+}
+
+.main-content {
+    width: 1100px;
+    height: fit-content;
+    margin: auto;
+    background-color: aquamarine;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.today-tree {
+    display: flex;
+}
+
+.today-tree div {
+    font-size: 20px;
+}
+
+.dates {
+    width: 690px;
+    height: 39px;
+    /* background-color: #c90027; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.double-dates {
+    display: flex;
+    gap: 15px;
+}
+
+.line {
+    width: 103px;
+    height: 7px;
+    background-color: rgb(0, 176, 244);
+    border-radius: 3px;
+}
+
+.date-line {
+    width: 103px;
+    text-align: center;
+}
+
+.sett {
+    width: 27px;
+    height: 27px;
+    background-color: rgb(118, 118, 118);
+    text-align: center;
+}
+
+.picture-news {
+    width: 690px;
+    height: fit-content;
+    background-color: #e08100;
+
+
+}
+
+.picture-news-section-one {
+    gap: 25px;
+}
+
+.comment-picture {
+    display: flex;
+    gap: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.subject {
+    width: 450px;
+    height: 78px;
+    font-size: 19px;
+}
+
+.explain {
+    width: 450px;
+    height: 46px;
+    font-size: 14px;
+
+}
+
+.comment-time {
+    display: flex;
+    gap: 25px;
+    margin-top: 25px;
+    color: rgb(136, 136, 136);
+}
+
+.minute {
+    display: flex;
+    align-items: center;
+}
+
+.minute h5 {
+    font-size: 14px;
+}
+
+.fa {
+    font-size: 14px;
+}
+
+.content-footer {
+    width: 690px;
+    /* height: 367px; */
+    /* text-align: center; */
+    background-color: #f8f8f8;
+    padding: 20px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+    gap: 5px;
+}
+
+.content-footer a {
+    color: black;
+    font-size: 18px;
+}
+
+.content-right {
+    width: 290px;
+    height: 2906px;
+    border-left: 1px solid rgb(102, 102, 102);
+    /* padding-left: 55px; */
+    margin: auto;
+    margin-top: 30px;
+
+
+}
+
+
+.content-right-above {
+    width: 290px;
+    height: 1190px;
+    /* background-color: #c90027; */
+    margin-right: 50px;
+    /* padding-top: 25px; */
+  margin-left: 59px;
+
+}
+
+.special-tree {
+    display: flex;
+    gap: 20px;
+}
+
+.special-tree div {
+    font-size: 20px;
+}
+
+.content-news-card {
+    /* gap: 20px; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.content-right-comment {
+    display: flex;
+    gap: 10px;
+    color: rgb(136, 136, 136);
+}
+.content-news-card h3{
+    width: 290px;
+    height: 60px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.content-below{
+    width: 340px;
+    height: fit-content;
+    background-color: #e08100;
+    padding-left: 20px;
+    
+}
+.fire-trend{
+    display:flex;
+    align-items: center;
+    gap: 15px;
+
+}
+.content-below-list{
+    width: 270px;
+    height: 100px;
+    display: flex;
+    gap: 15px;
+    border-bottom: 2px dashed rgb(136, 136, 136);
+    margin-top: 20px;
+}
+.number{
+    font-weight: 700;
+    color: #e00034;
+    font-size: 46px;
+    line-height: 46px;
+}
+.list-comment{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    color: rgb(136, 136, 136);
+}
+.below-list-comment h3{
+    font-size: 14px;
+    font-weight: 300px;
+}
